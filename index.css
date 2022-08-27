@@ -1,0 +1,118 @@
+*{
+    font-family: Merriweather;
+    background-color: black;
+    color: white;
+    
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10rem;
+}
+
+a{
+    font-weight: bolder;
+}
+.bi-grid-3x3-gap-fill {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+a.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+a.nav-link:hover{
+    color: rgb(231, 88, 112);
+    transition: all .5s;
+}
+#header{
+    background-color:black;
+    padding-bottom: .3rem;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.3rem;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.bca {
+    height: 24rem;
+    width: 100%;
+}
+.important{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.copy {
+    background-color:black;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+input.form-control{
+    background-color: black;
+    color: white;
+}
+textarea.form-control{
+    background-color: black;
+    color: white;
+}
+@media (max-width:420px) {
+    a.nav-link{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 9px;
+        margin: .3rem;
+    }
+    .logo{
+        margin-bottom: 1rem;
+    }
+    *{
+        font-size: 16px;
+    }
+    .important{
+        font-size: 1rem;
+    }
+    .description{
+        font-size: 16px;
+    }
+    footer{
+        padding-top: 1rem;
+    }
+    .copy{
+        font-size: 16px;
+    }
+}
